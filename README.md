@@ -71,6 +71,6 @@ We welcome suggestions and contributions to the repository. Please open an issue
 
 ## Sample
 
-![Sampple screen](https://github.com/KaePee/aptos-wallet-keyless.git)
+![Sampple screen](https://github.com/KaePee/aptos-wallet-keyless/blob/main/demo/aptos-keyless-demo.gif)
 ---
 
