@@ -1,6 +1,15 @@
-# Aptos Keyless Example
+# Aptos Keyless Wallet Example
 
-This template provides a minimal setup to get Keyless working on Vite with some ESLint rules.
+Aptos Keyless Wallet Example provides a seamless way to abstract the complexities of account generation for public and private keys. This project enables users to log in using Single Sign-On (SSO) methods like Google, offering a streamlined process for obtaining wallet addresses without the need to manage private or seed phrases.
+
+## Features
+
+- **SSO Integration**: Log in with Google to automatically receive a wallet address.
+- **Key Management Abstraction**: No need to handle private keys or seed phrases.
+- **Test Transactions**: Easily send APT to another address for testing purposes.
+
+## Installation
+
 
 ## Configuring Google
 
@@ -22,13 +31,46 @@ That's it! You should now be able to authenticate with Google in your applicatio
 
 If you need more help with configuring the Google OAuth App check their docs [here](https://support.google.com/cloud/answer/6158849).
 
-## Usage
 
 Ensure you have copied your google client id above into the `src/core/constants.ts` file
 
+To get started with the Aptos Keyless Wallet Example, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/KaePee/aptos-wallet-keyless.git
+   cd aptos-wallet-keyless
+   ```
+
+2. **Install Bun**
+
+   Follow the instructions on the [Bun website](https://bun.sh) to install Bun.
+
+3. **Install Aptos**
+
+   Install Aptos using npm:
+
+   ```bash
+   npm install aptos
+   ```
+
+## Usage
+
+Run the project locally:
+
 ```bash
-bun i
 bun dev
 ```
 
-This will start a development server at `http://localhost:5173`.
+This will start a development server at `http://localhost:5173`. Users can connect their Google account to acquire a wallet address and perform test transactions by sending APT to another address.
+
+## Contributing
+
+We welcome suggestions and contributions to the repository. Please open an issue or submit a pull request with any improvements or feature requests.
+
+## Sample
+
+![Sampple screen](https://github.com/KaePee/aptos-wallet-keyless.git)
+---
+
